@@ -29,7 +29,7 @@ tagline: Load360 is the performance testing tool that drastically minimizes your
 
 | Test Scripts in Minutes, Not Hours | Real-Time Debugging On Real Browsers | Actionable, Readable Insights |
 | :----------------------------------|:------------------------------------ | :-----------------------------|
-| No downloads or learning new protocols for creating your test scenarios. Use our built-in recorder to interact with your webapps and quickly create test cases | Your users aren’t using emulators, and neither should you. Record what your customer will actually see in your test scripts on real browsers on real servers  | Use data your developers are already used to, straight from the browser. |
+| No downloads or learning new protocols for creating your test scenarios. Use our built-in recorder to interact with your webapps and quickly create test cases | Your users aren’t using emulators, and neither should you. Record what your customer will actually see in your test scripts on real browsers on real servers  | Use data your developers are already used to, and can actually read without any documentation or further translation. |
 
 
 
@@ -54,7 +54,7 @@ With Load360, you don’t have to! Since Load360 uses real browsers, your record
     <div class="right-column big">
     <h2> Our Journey So Far </h2>
     <p> Load360 is built by a small yet dedicated team from SmartBear Software, with a mission to help developers and testers improve their performance testing processes without adding any additional overhead or labor. If you have any questions, suggestions or otherwise, feel free to email us directly at team@load360.com </p>
-    <a href="{{ site.github.repository_url }}" class="btn-success">Join Slack Community </a>
+    <a href="{{ site.github.repository_url }}" class="btn-success push-right">Join Slack Community </a>
 
     </div>
 </div>
