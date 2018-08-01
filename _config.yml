@@ -1,5 +1,5 @@
 # Build settings
-theme: jekyll-theme-cayman
+theme: jekyll-theme-cayman-blog
 markdown: kramdown
 
 # basic options
@@ -9,5 +9,5 @@ email: keshav.vasudevan@smartbear.com
 description: SmartLoad your websites like never before!
 twitter_username: keshinpoint
 github_username: kesh92
-repository: https://swagger.io
+repository: kesh92/keshinpoint
 cta_url: https://swagger.io
