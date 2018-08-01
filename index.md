@@ -54,6 +54,7 @@ With Load360, you don’t have to! Since Load360 uses real browsers, your record
     <div class="right-column">
     <h2> Our Journey So Far </h2>
     <p> Load360 is built by a small yet dedicated team from SmartBear Software, with a mission to help developers and testers improve their performance testing processes without adding any additional overhead or labor. If you have any questions, suggestions or otherwise, feel free to email us directly at team@load360.com </p>
-      
+    <a href="{{ site.github.repository_url }}" class="btn-success">Join Slack Community </a>
+
     </div>
 </div>
