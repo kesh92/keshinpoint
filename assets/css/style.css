@@ -31,16 +31,25 @@ td {
   text-align: justify;
 }
 
- .two-column>.left-column {
+ .left-big>.left-column {
   max-width: 70%;
 }
 
- .two-column>.right-column {
+.left-big>.right-column {
   max-width: 30%;
 }
 
+.right-big>.left-column {
+    max-width: 30%;
+}
+
+.right-big>.right-column {
+    max-width: 70%;
+}
+
+
 @media only screen and (max-width: 600px) {
-    .right-column {
+    .left-big>.right-column {
       display: none;
     }
 }

@@ -34,7 +34,7 @@ tagline: Load360 is the performance testing tool that drastically minimizes your
 
 
 
-<div class="two-column">
+<div class="two-column left-big">
     <div class="left-column">
     <h2> Update Your Websites, Not Your Tests </h2>
         <p> Webapps and their associated Javascript are always bound to change in today’s digital ecosystem with the ever-changing demands of your end-customers. But do you also need to spend hours modifying your test scripts every single time your Javascript changes?
@@ -46,36 +46,14 @@ With Load360, you don’t have to! Since Load360 uses real browsers, your record
     </div>
 </div>
 
+<div class="two-column right-big">
+    <div class="left-column">
 
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kesh92/keshinpoint/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+        <p> image </p>
+    </div>
+    <div class="right-column">
+    <h2> Our Journey So Far </h2>
+    <p> Load360 is built by a small yet dedicated team from SmartBear Software, with a mission to help developers and testers improve their performance testing processes without adding any additional overhead or labor. If you have any questions, suggestions or otherwise, feel free to email us directly at team@load360.com </p>
+      
+    </div>
+</div>
