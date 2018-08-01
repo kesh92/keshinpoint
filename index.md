@@ -1,5 +1,5 @@
 ---
-title: Home
+title: ""
 h1: Load Test Your Websites, Not Your Wits
 tagline: Load360 is the performance testing tool that drastically minimizes your load testing efforts and maximizes your app’s reliability
 
