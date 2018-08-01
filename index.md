@@ -5,28 +5,43 @@ tagline: Load360 is the performance testing tool that drastically minimizes your
 
 
 ---
-## The Load Testing Tool That Lets You Breath Easy
+# The Load Testing Tool That Lets You Breath Easy
 
-This⋅para⋅line⋅starts⋅at⋅the⋅first⋅column.⋅However,
-⋅⋅⋅⋅⋅⋅the⋅following⋅lines⋅can⋅be⋅indented⋅any⋅number⋅of⋅spaces/tabs.
-⋅⋅⋅The⋅para⋅continues⋅here.
 
-⋅⋅This⋅is⋅another⋅paragraph,⋅not⋅connected⋅to⋅the⋅above⋅one.⋅But⋅⋅
-with⋅a⋅hard⋅line⋅break.⋅\\
-And⋅another⋅one.
-
-You can use the [editor on GitHub](https://github.com/kesh92/keshinpoint/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-<div class="center_row">
-    <div class="left_panel">
-    <h1> Enjoy the day </h1>
-        <p> Webapps and their associated Javascript are always bound to change in today’s digital ecosystem with the ever-changing demands of your end-customers. But do you also need to spend hours modifying your test scripts every single time your Javascript changes?
-With Load360, you don’t have to! Since Load360 uses real browsers, your recorded test scripts will dynamically adjust to your changing Javascript
+<!-- <div class="three-column">
+    <div class="left-column">
+    <h3> Test Scrips in Minutes, Not Hours </h3>
+        <p> No downloads or learning new protocols for creating your test scenarios. Use our built-in recorder to interact with your webapps and quickly create test cases.   
  </p>
     </div>
-    <div class="right_panel">
+    <div class="middle-column">
+    <h3> Real-Time Debugging On Real Browsers </h3>
+      <p>Your users aren’t using emulators, and neither should you. Record what your customer will actually see in your test scripts on real browsers on real servers   </p>
+    </div>
+
+    <div class="right-column">
+    <h3> Actionable, Readable Insights </h3>
+      <p> Use data your developers are already used to, straight from the browser.   </p>
+    </div>
+</div> -->
+
+
+
+| Test Scripts in Minutes, Not Hours | Real-Time Debugging On Real Browsers | Actionable, Readable Insights |
+| :----------------------------------|:------------------------------------ | :-----------------------------|
+| No downloads or learning new protocols for creating your test scenarios. Use our built-in recorder to interact with your webapps and quickly create test cases | Your users aren’t using emulators, and neither should you. Record what your customer will actually see in your test scripts on real browsers on real servers  | Use data your developers are already used to, straight from the browser. |
+
+
+
+
+<div class="two-column">
+    <div class="left-column">
+    <h2> Update Your Websites, Not Your Tests </h2>
+        <p> Webapps and their associated Javascript are always bound to change in today’s digital ecosystem with the ever-changing demands of your end-customers. But do you also need to spend hours modifying your test scripts every single time your Javascript changes?
+With Load360, you don’t have to! Since Load360 uses real browsers, your recorded test scripts will dynamically adjust to your changing Javascript files.
+ </p>
+    </div>
+    <div class="right-column">
       <p> Yo </p>
     </div>
 </div>
