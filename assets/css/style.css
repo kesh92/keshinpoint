@@ -27,24 +27,21 @@ td {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   text-align: justify;
 }
 
- .left-big>.left-column {
+.big {
   max-width: 70%;
 }
 
-.left-big>.right-column {
+.small {
   max-width: 30%;
 }
 
-.right-big>.left-column {
-    max-width: 30%;
-}
 
-.right-big>.right-column {
-    max-width: 70%;
+.right-big > .right-column h2  {
+  text-align: right;
 }
 
 
@@ -75,7 +72,7 @@ td {
 	padding:16px 30px;
 	text-decoration:none;
 	text-shadow:0px 1px 3px #2f6627;
-  text-decoration:none; 
+  text-decoration:none !important; 
 }
 .btn-success:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767));

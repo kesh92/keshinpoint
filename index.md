@@ -35,23 +35,23 @@ tagline: Load360 is the performance testing tool that drastically minimizes your
 
 
 <div class="two-column left-big">
-    <div class="left-column">
+    <div class="left-column big">
     <h2> Update Your Websites, Not Your Tests </h2>
         <p> Webapps and their associated Javascript are always bound to change in today’s digital ecosystem with the ever-changing demands of your end-customers. But do you also need to spend hours modifying your test scripts every single time your Javascript changes?
 With Load360, you don’t have to! Since Load360 uses real browsers, your recorded test scripts will dynamically adjust to your changing Javascript files.
  </p>
     </div>
-    <div class="right-column">
-      <p> Yo </p>
+    <div class="right-column small">
+     <img src="assets/images/relax.png">
     </div>
 </div>
 
 <div class="two-column right-big">
-    <div class="left-column">
+    <div class="left-column small">
 
-        <p> image </p>
+        <p> <img src="assets/images/community.png"> </p>
     </div>
-    <div class="right-column">
+    <div class="right-column big">
     <h2> Our Journey So Far </h2>
     <p> Load360 is built by a small yet dedicated team from SmartBear Software, with a mission to help developers and testers improve their performance testing processes without adding any additional overhead or labor. If you have any questions, suggestions or otherwise, feel free to email us directly at team@load360.com </p>
     <a href="{{ site.github.repository_url }}" class="btn-success">Join Slack Community </a>

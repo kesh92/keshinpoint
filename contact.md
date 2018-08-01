@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Contact
-tagline: Create a contact form and you are good to go
+tagline: Reach out to us at any time to give your valuable feedback, or if you just want to discuss performance testing
 ---
 
-Jekyll is a great tool to create static sites but with static site, there's no backend to send your data to: that is why it's hard to put a form on a Jekyll site.
+# Every Input Counts
+At this juncture, the most important thing that would benefit us is feedback. Be it a pat on the back, criticism, or a rant, your feedback will go a long way in helping us build a product that everyone loves.  
 
-Here listed some resources which provide  a saas service as a backend for forms (contact forms, hiring forms, etc.) to designers and developers like you:
-1. [Formspree (also open source, free)](https://formspree.io/)
-2. [FormKeep](https://formkeep.com/guides/contact-form-jekyll)
-3. [Simple Form](https://getsimpleform.com/)
+Email us directly anytime at team@load360.com, or join our close knit Slack community and meet other users trying our beta today!
+
+<a href="{{ site.github.repository_url }}" class="btn-success">Join Slack Community </a>
 
 [Go to the Home Page](./)

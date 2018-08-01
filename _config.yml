@@ -6,8 +6,8 @@ markdown: kramdown
 title: SmartLoad
 author: Keshav Vasudevan
 email: keshav.vasudevan@smartbear.com
-description: Load360 is the performance testing tool that drastically minimizes your load testing efforts and maximizes your app’s reliability 
-twitter_username: keshinpoint
+description: Load360 is the performance testing tool that drastically minimizes your load testing efforts and maximizes your app’s reliability
+twitter_username: https://twitter.com/keshinpoint
 github_username: kesh92
 repository: kesh92/keshinpoint
 cta_url: https://swagger.io
