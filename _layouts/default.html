@@ -44,6 +44,7 @@
     {% include site-header.html %}
 
     {% if page.layout == 'home' %}
+      {% assign page-title = page.h1 | default: site.github.project_tagline | escape %}
       {% assign page-tagline = page.tagline | default: site.github.project_tagline | escape %}
     {% endif %}
     {% if page.layout == 'page' %}

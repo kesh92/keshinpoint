@@ -1,15 +1,32 @@
 ---
-title: Load Test Your Websites, Not Your Wits
+title: Home
+h1: Load Test Your Websites, Not Your Wits
 tagline: Load360 is the performance testing tool that drastically minimizes your load testing efforts and maximizes your app’s reliability
+
 
 ---
 ## Welcome to GitHub Pages
+
+This⋅para⋅line⋅starts⋅at⋅the⋅first⋅column.⋅However,
+⋅⋅⋅⋅⋅⋅the⋅following⋅lines⋅can⋅be⋅indented⋅any⋅number⋅of⋅spaces/tabs.
+⋅⋅⋅The⋅para⋅continues⋅here.
+
+⋅⋅This⋅is⋅another⋅paragraph,⋅not⋅connected⋅to⋅the⋅above⋅one.⋅But⋅⋅
+with⋅a⋅hard⋅line⋅break.⋅\\
+And⋅another⋅one.
 
 You can use the [editor on GitHub](https://github.com/kesh92/keshinpoint/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-
+<div class="row">
+    <div class="col-md-6">
+        <p> Yo </p>
+    </div>
+    <div class="col-md-6">
+      <p> Yo </p>
+    </div>
+</div>
 
 ### Markdown
 
