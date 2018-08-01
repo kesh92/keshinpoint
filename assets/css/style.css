@@ -1,3 +1,26 @@
+.center_row {
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.left_panel {
+  max-width: 60%;
+
+}
+
+.right_panel {
+  max-width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .center_row {
+      flex-direction: column;
+    }
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
 @import "bootstrap-sprockets";

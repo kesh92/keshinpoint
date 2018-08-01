@@ -5,7 +5,7 @@ tagline: Load360 is the performance testing tool that drastically minimizes your
 
 
 ---
-## Welcome to GitHub Pages
+## The Load Testing Tool That Lets You Breath Easy
 
 This⋅para⋅line⋅starts⋅at⋅the⋅first⋅column.⋅However,
 ⋅⋅⋅⋅⋅⋅the⋅following⋅lines⋅can⋅be⋅indented⋅any⋅number⋅of⋅spaces/tabs.
@@ -19,14 +19,19 @@ You can use the [editor on GitHub](https://github.com/kesh92/keshinpoint/edit/gh
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-<div class="row">
-    <div class="col-md-6">
-        <p> Yo </p>
+<div class="center_row">
+    <div class="left_panel">
+    <h1> Enjoy the day </h1>
+        <p> Webapps and their associated Javascript are always bound to change in today’s digital ecosystem with the ever-changing demands of your end-customers. But do you also need to spend hours modifying your test scripts every single time your Javascript changes?
+With Load360, you don’t have to! Since Load360 uses real browsers, your recorded test scripts will dynamically adjust to your changing Javascript
+ </p>
     </div>
-    <div class="col-md-6">
+    <div class="right_panel">
       <p> Yo </p>
     </div>
 </div>
+
+
 
 ### Markdown
 
