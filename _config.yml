@@ -1,12 +1,13 @@
 # Build settings
 theme: jekyll-theme-cayman-blog
 markdown: kramdown
+  parse_block_html: true
 
 # basic options
 title: SmartLoad
 author: Keshav Vasudevan
 email: keshav.vasudevan@smartbear.com
-description: SmartLoad your websites like never before!
+description: Load360 is the performance testing tool that drastically minimizes your load testing efforts and maximizes your app’s reliability
 twitter_username: keshinpoint
 github_username: kesh92
 repository: kesh92/keshinpoint
