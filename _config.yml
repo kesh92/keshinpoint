@@ -3,10 +3,10 @@ theme: jekyll-theme-cayman-blog
 markdown: kramdown
 
 # basic options
-title: SmartLoad
+title: LoadNinja
 author: Keshav Vasudevan
 email: keshav.vasudevan@smartbear.com
-description: Load360 is the performance testing tool that drastically minimizes your load testing efforts and maximizes your app’s reliability
+description: LoadNinja is the performance testing tool that drastically minimizes your load testing efforts and maximizes your app’s reliability
 twitter_username: https://twitter.com/keshinpoint
 github_username: kesh92
 repository: kesh92/keshinpoint
