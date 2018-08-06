@@ -49,7 +49,7 @@ tagline: Load360 is the performance testing tool that drastically minimizes your
 <div class="two-column right-big">
     <div class="left-column small">
 
-        <p> <img src="assets/images/community.png"> </p>
+        <p> <img src="assets/images/Server.png"> </p>
     </div>
     <div class="right-column big">
     <h2> Let Us Do The Heavy Lifting </h2>
