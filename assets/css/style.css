@@ -55,6 +55,7 @@ td {
 .push-right {
   float: right;
 }
+/**
 .btn-success {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a));
 	background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
@@ -92,7 +93,7 @@ td {
 	position:relative;
 	top:1px;
 }
-
+**/
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
