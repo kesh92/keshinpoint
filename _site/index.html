@@ -106,22 +106,30 @@
 
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/css/style.css?v=4e7ebafd9d2c41acefa584ff9b483d683aeb3f6f">
+    <link rel="stylesheet" href="/assets/css/style.css?v=0df0fb3c05748f1150db53956f6d37f305fbb6b7">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
   </head>
   <body>
 
     <header class="site-header" role="banner">
 
-  <div class="wrapper">
+  <div class="container">
     
     
 
-    
+  <!--   -->
 
     
-      <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white !important">
+        <a class = "navbar-brand" href="/">LoadNinja </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <!-- <label for="nav-trigger">
           <span class="menu-icon">
             <svg viewBox="0 0 18 15" width="18px" height="15px">
               <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
@@ -129,9 +137,10 @@
               <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
             </svg>
           </span>
-        </label>
+        </label> -->
 
-        <div class="trigger">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class = "navbar-nav">
           
             
             
@@ -142,21 +151,21 @@
             
             
               
-                <a class="page-link" href="/about/">About</a>
+                <a class="nav-item nav-link" href="/about/">About</a>
               
             
           
             
             
               
-                <a class="page-link" href="/blog/">Blog</a>
+                <a class="nav-item nav-link" href="/blog/">Blog</a>
               
             
           
             
             
               
-                <a class="page-link" href="/contact.html">Contact</a>
+                <a class="nav-item nav-link" href="/contact.html">Contact</a>
               
             
           
@@ -166,15 +175,16 @@
             
             
               
-                <a class="page-link" href="/"></a>
+                <a class="nav-item nav-link" href="/"></a>
               
             
           
             
             
           
-          <a class="page-link" href="google.com">Sign Up</a>
-          <a class="page-link" href="google.com">Sign In</a>
+          <a class="btn btn-outline-primary" href="/" role="button" aria-pressed="true">Sign Up</a>
+          <a class="btn btn-outline-success" href="/" role="button" aria-pressed="true">Sign In</a>
+        </div>
         </div>
       </nav>
     
@@ -188,7 +198,7 @@
 
     <section class="page-header">
       <h1 class="project-name">Load Test Your Websites, Not Your Wits</h1>
-      <h2 class="project-tagline">Load360 is the performance testing tool that drastically minimizes your load testing efforts and maximizes your app’s reliability</h2>
+      <h2 class="project-tagline">LoadNinja is the performance testing tool that drastically minimizes your load testing efforts and maximizes your app’s reliability</h2>
       
           <a href="http://github.com/kesh92/keshinpoint" class="btn">Sign In </a>
         
@@ -233,11 +243,12 @@
     <tr>
       <td style="text-align: left">No downloads or learning new protocols for creating your test scenarios. Use our built-in recorder to interact with your webapps and quickly create test cases.</td>
       <td style="text-align: left">Your users aren’t using emulators, and neither should you. Record and see your test scripts in action on real browsers and get actionable data you can easily read.</td>
-      <td style="text-align: left">Debug on real browsers with actionable data from your website’s DOM to isolate and performance bottlenecks.</td>
+      <td style="text-align: left">Debug on real browsers with actionable data from your website’s DOM to isolate any and performance bottlenecks on the fly.</td>
     </tr>
   </tbody>
 </table>
 
+<!--
 <div class="two-column left-big">
     <div class="left-column big">
     <h2> Update Your Websites, Not Your Tests </h2>
@@ -246,14 +257,14 @@
 
     </div>
     <div class="right-column small">
-     <img src="assets/images/relax.png" />
+     <img src="assets/images/relax.png">
     </div>
 </div>
 
 <div class="two-column right-big">
     <div class="left-column small">
 
-        <p> <img src="assets/images/Server.png" /> </p>
+        <p> <img src="assets/images/Server.png"> </p>
     </div>
     <div class="right-column big">
     <h2> Let Us Do The Heavy Lifting </h2>
@@ -261,12 +272,45 @@
 
 
     </div>
+</div> -->
+<p><br /> <br /> <br /></p>
+<div class="container">
+<div class="row">
+
+
+<div class="col-md-8">
+<h2> Update Your Websites, Not Your Tests </h2>
+<p>  Webapps and their associated JavaScript are always bound to with the ever-changing demands of your end-customers. But do you also need to spend hours modifying your test scripts every single time your JavaScript changes? </p>
+<p>With Load360, you don’t have to! Since Load360 records scripts against real browsers, your test scripts will dynamically adjust to your website’s changing JavaScript, so you don’t have to spend countless hours readjusting them. </p>
+</div>
+
+<div class="col-md-4 hidden-sm-down">
+<p> <img src="assets/images/Update.png" /> </p>
+</div>
+
+</div>
+</div>
+
+<p><br /><br /><br /></p>
+
+<div class="container">
+<div class="row">
+<div class="col-md-4 hidden-sm-down">
+<p> <img src="assets/images/Server.png" /> </p>
+</div>
+
+<div class="col-md-8">
+<h2> Let Us Do the Heavy-Lifting </h2>
+<p>  Who needs complicated downloads or a cluttered UI? LoadNinja lets you get started in a matter of minutes and see results without worrying about the actual load generation, maintaining the servers for the load you generate, downloading browser plugins.</p>
+</div>
+
+</div>
 </div>
 
 <h2 id="every-input-counts">Every Input Counts</h2>
-<p>Load360 is built by a small yet dedicated team from SmartBear Software, with a mission to help developers and testers accelerate their performance testing processes without adding any additional overhead or labor. If you have any questions, suggestions or otherwise, feel free to email us directly at team@load360.com.</p>
+<p>LoadNinja is built by a small yet dedicated team from SmartBear Software, with a mission to help developers and testers accelerate their performance testing processes without adding any additional overhead or labor. If you have any questions, suggestions or otherwise, feel free to email us directly at team@load360.com.</p>
 
-<p><a href="http://github.com/kesh92/keshinpoint" class="btn-success">Join Slack Community </a></p>
+<p><a href="#" class="btn btn-success" role="button">Join Slack Community</a></p>
 
 <p><br /></p>
 
