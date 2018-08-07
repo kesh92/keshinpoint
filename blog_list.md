@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Blog
-tagline: Best blog ever
+tagline: The blog for all things performance testing, brought to you by the people behind SmartLoad  
 permalink: /blog/
 ---
 
-LoadNinja's blog is constantly updated with documentation and best practises regarding performance testing
+SmartLoad's blog is constantly updated with documentation, best practices and business strategies around building an efficient performance testing strategy  
 
 <ul>
   {% for post in site.posts %}
