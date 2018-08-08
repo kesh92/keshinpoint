@@ -3,11 +3,10 @@ theme: jekyll-theme-cayman-blog
 markdown: kramdown
 
 # basic options
-title: LoadNinja
+title: SmartLoad
 author: Keshav Vasudevan
 email: keshav.vasudevan@smartbear.com
-description: LoadNinja is the performance testing tool that drastically minimizes your load testing efforts and maximizes your app’s reliability
-twitter_username: https://twitter.com/keshinpoint
-github_username: kesh92
-repository: kesh92/keshinpoint
-cta_url: https://swagger.io
+description: SmartLoad is the performance testing tool that drastically minimizes your load testing efforts and maximizes your app’s reliability
+twitter_username: SmartBear
+github_username: SmartBear
+repository: SmartBear/smartload-www

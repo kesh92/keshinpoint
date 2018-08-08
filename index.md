@@ -5,7 +5,7 @@ tagline: SmartLoad is the performance testing tool that drastically minimizes yo
 
 
 ---
-# The Load Testing Tool That Lets You Breath Easy
+# Breath Easy With SmartLoad
 
 
 <!-- <div class="three-column">
@@ -93,8 +93,8 @@ tagline: SmartLoad is the performance testing tool that drastically minimizes yo
 </div>
 
 ## Every Input Counts
-SmartLoad is built by a small yet dedicated team from SmartBear Software, with a mission to help developers and testers accelerate their performance testing processes without adding any additional overhead or labor. If you have any questions, suggestions or otherwise, feel free to email us directly at team@smartload.io.
+SmartLoad is built by a small yet dedicated team from SmartBear Software, with a mission to help developers and testers accelerate their performance testing processes without adding any additional overhead or labor. If you have any questions, suggestions or otherwise, feel free to email us directly at [keshav.vasudevan@smartbear.com](mailtokeshav.vasudevan@smartbear.com).
 
- <a href="#" class="btn btn-success" role="button">Join Slack Community</a>
+ <!-- <a href="#" class="btn btn-success" role="button">Join Slack Community</a> -->
 
  <br>
