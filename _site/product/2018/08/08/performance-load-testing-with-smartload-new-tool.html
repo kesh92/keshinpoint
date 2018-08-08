@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Non social metatags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+
+
+
+
+    
+
+    <title>Drastically Improve Your Performance Testing With SmartLoad</title>
+
+    
+      <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+<html itemscope itemtype="http://schema.org/Article">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Place this data between the <head> tags of your website -->
+
+  <meta name="author" content="Keshav Vasudevan">
+
+<meta name="description" content="This is our first post detailing why we built SmartLoad, and how we hope to improve the lives of performance engineers across the globe." />
+
+
+
+
+  <meta name="keywords" itemprop="category" content="">
+
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="Drastically Improve Your Performance Testing With SmartLoad">
+<meta itemprop="description" content="This is our first post detailing why we built SmartLoad, and how we hope to improve the lives of performance engineers across the globe.">
+
+  <meta itemprop="image" content="http://localhost:4000">
+
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+
+
+
+<meta name="twitter:title" content="Drastically Improve Your Performance Testing With SmartLoad">
+<meta name="twitter:description" content="This is our first post detailing why we built SmartLoad, and how we hope to improve the lives of performance engineers across the globe.">
+
+
+
+<!-- Twitter summary card with large image must be at least 280x150px -->
+
+  <meta name="twitter:image:src" content="http://localhost:4000">
+  <meta property="twitter:image" content="http://localhost:4000">
+
+<meta property="twitter:url" content="http://localhost:4000/product/2018/08/08/performance-load-testing-with-smartload-new-tool.html">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Drastically Improve Your Performance Testing With SmartLoad" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:4000/product/2018/08/08/performance-load-testing-with-smartload-new-tool.html" />
+
+  <meta property="og:image" content="http://localhost:4000" />
+
+<meta property="og:description" content="This is our first post detailing why we built SmartLoad, and how we hope to improve the lives of performance engineers across the globe." />
+<meta property="og:site_name" content="SmartLoad" />
+
+  <meta property="article:published_time" content="2018-08-08T00:00:00-04:00" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <meta property="article:tag" content="engineering">
+  
+    <meta property="article:tag" content="documentation">
+  
+
+
+
+
+
+  
+    <meta property="article:tag" content="product">
+  
+
+
+
+  <meta property="article:tag" content="">
+
+
+    
+
+    <link rel="canonical" href="http://localhost:4000/product/2018/08/08/performance-load-testing-with-smartload-new-tool.html">
+
+    
+
+    <link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+    <meta name="robots" content="noarchive">
+
+    <!-- <link rel="alternate" media="only screen and (max-width: 640px)" href="">
+    <link rel="alternate" media="handheld" href=""> -->
+
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/style.css?v=7a39210e5d1b9fe86b5dc87a41211cf64b90e225">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <header class="site-header" role="banner">
+
+
+
+  <div class="container">
+    
+    
+
+  <!--  
+      <a class="site-title" href="/">SmartLoad</a>
+     -->
+
+    
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white !important">
+        <a class = "navbar-brand" href="/"> SmartLoad </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <!-- <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label> -->
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class = "navbar-nav">
+          
+            
+            
+              
+              
+            
+          
+            
+            
+              
+                <a class="nav-item nav-link" href="/about/">About</a>
+              
+            
+          
+            
+            
+              
+                <a class="nav-item nav-link" href="/blog/">Blog</a>
+              
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+              
+                <a class="nav-item nav-link" href="/"></a>
+              
+            
+          
+            
+            
+          
+          <a class="btn btn-outline-primary" href="https://load.auth.us-east-1.amazoncognito.com/signup?redirect_uri=https%3A%2F%2Fapp.smartload.io&amp;response_type=code&amp;client_id=5sum82q1em59a1slrquvitk1rr&amp;state=iPjOVSQJJeNNjV5rCRkW6FxBUVK2pfRt&amp;scope=openid%20email%20phone" role="button" aria-pressed="true">Sign Up</a>
+          <a class="btn btn-outline-success" href="https://load.auth.us-east-1.amazoncognito.com/login?redirect_uri=https%3A%2F%2Fapp.smartload.io&amp;response_type=code&amp;client_id=5sum82q1em59a1slrquvitk1rr&amp;state=rSW3fujAQSHHgD65uAQbxeIY2OMCwRSl&amp;scope=openid%20email%20phone" role="button" aria-pressed="true">Sign In</a>
+        </div>
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    
+    
+    
+
+    <section class="page-header">
+      <h1 class="project-name">Drastically Improve Your Performance Testing With SmartLoad</h1>
+      <h2 class="project-tagline"></h2>
+      
+      <!-- Post tagline -->
+      
+        <h2 class="project-date">
+        <time datetime="2018-08-08T00:00:00-04:00" itemprop="datePublished">
+          
+          Aug 8, 2018
+        </time>
+        
+        
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Keshav Vasudevan</span></span>
+        
+        </h2>
+      
+      <!-- End: Post tagline -->
+    </section>
+
+    <section class="main-content">
+
+      <article itemscope itemtype="http://schema.org/BlogPosting">
+
+  <!-- <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Drastically Improve Your Performance Testing With SmartLoad</h1>
+    <p class="post-meta">
+      <time datetime="2018-08-08T00:00:00-04:00" itemprop="datePublished">
+        
+        Aug 8, 2018
+      </time>
+      </p>
+  </header> -->
+
+  <div itemprop="articleBody">
+    <p>App users expect websites to respond quickly, and work as intended without any lag or performance issues. Good user experience is at the core of digital transformation, and customers are becoming increasingly intolerant of brand experiences that don’t align with their expectations, particularly with regards to speed. Imagine how frustrated we get when we wait longer than 45 seconds for our favorite Netflix shows to stream?</p>
+
+<p>It’s no wonder then that performance testing has become an almost ubiquitous need for product that was to scale their usage and growth. Having a poor performance testing strategy goes beyond just user retention, as research shows how fixing performance bugs in productions costs 50% more to fix. Clearly, having poor performance of apps costs money and affects user growth, two of the biggest metrics of success for most businesses.</p>
+
+<h1 id="but-is-performance-testing-easy">But Is Performance Testing Easy?</h1>
+
+<p>Theoretically, it should be. It’s essentially identifying performance bottlenecks by simulating concurrent usage of your apps across a set of expected business. Sounds fairly straightforward, but in practice, this is hindered by outdated testing processes that need to fit in with overly complicated tools.</p>
+
+<h2 id="outdated-processes">Outdated Processes</h2>
+
+<p>Traditionally, performance testing have relied heavily on rigorous processes that add huge overhead to the core development workflow. As teams adopted agile methodologies to move faster, testing, especially performance testing always fell behind due the associated overhead costs. It became increasingly difficult to have consistent tests, particularly performance</p>
+
+<p>The Shift-Left methodology has become popular due to this very reason of developing a culture of involving testing early on in the development and delivery process of software applications. For the Shift-Left methodology to work, teams would need lightweight and flexible tools that fit the speeds of their software development counterparts. This is where the second problem arises.</p>
+
+<h2 id="complicated-tools">Complicated Tools</h2>
+
+<p>The available tools for performance testing also add huge complications given their steep learning curve. Many popular tools like Loadrunner or JMeter have been built with the traditional performance tester in mind, characterized by a waterfall approach to development and testing, and investing lots of time and effort to configure and string together performance tests. These tools were not built for the modern development and testing team focused on speed, agility and ease of use, who don’t have the time to invest in creating cumbersome test scripts.</p>
+
+<p>Many tools also require you to know some form of scripting to create your test scripts. Be it Selenium, Mocha or Gatling, knowing to script was foundational to the test engineer’s arsenal when creating performance testing scripts. Scripting a test from the start can take a lot of time, and if your development teams aren’t already used to this, will require them to learn all of this from the ground up, and that takes a huge amount of time.</p>
+
+<p>As development cycles get shorter, releases get quicker, and customer expectations on performance goes up, it becomes imperative for teams to get their performance testing strategy implemented with tools that fit their development velocities without adding overhead and expecting learning curves over a week.</p>
+
+<h1 id="a-faster-way-to-performance-test-with-smartload">A Faster Way To Performance Test With SmartLoad</h1>
+
+<p>The frustration of the complicated tools and processes forced us to look for a better way of doing performance testing. What if there was a lightweight load testing platform that required no setup and downloads, with almost zero learning curve? What if this tool can fit into any development cycle while simultaneously allowing teams to record test scripts without any configuration, maintain and reuse these scripts without additional updates, and analyze the results of the test and ensure there’s no performance bottlenecks in your websites?</p>
+
+<p>This belief of a better way to performance test led us to develop SmartLoad. Our mission with SmartLoad was to allow teams to drastically minimize the effort it takes to create performance test scripts, and produce accurate, reliable results from real browsers, to maximize your app’s performance. Let’s dissect this and elaborate on what we mean.</p>
+
+<h2 id="drastically-reducing-time-to-create-test-scripts">Drastically Reducing Time To Create Test Scripts</h2>
+
+<p>SmartLoad allows you to record test scripts with real Chrome browsers that get spun up on real servers we manage on the cloud, without any scripting or code. You can record tests by interacting with the browsers inside the SmartLoad platform, and create business transactions just like how your end users would, without having to start with a complicated script or framework. Of course, you can always work with the Selenium framework of the script you recorded in SmartLoad, and configure different steps, iterations and think-time to mimic real-world usage and validate your website’s availability with assertions.</p>
+
+<h2 id="producing-actionable-reliable-results">Producing Actionable, Reliable Results</h2>
+
+<p>Traditional load testing tools emulators to simulate concurrent usage. Data from emulators need to be translated by your team to some form of developer friendly verbiage in order to be understood and actionable. This just means more time spent by your test engineers learning how best to relay the produced data to your development teams and fix performance bottlenecks.</p>
+
+<p>SmartLoad overcomes this issue by using real browsers to record test scripts, with actual data from the network itself. This just happens to be the exact data your engineering team would need to understand the performance of your webapps. This data is also much more reliable since we get this from real browsers on actual servers, and not emulators. Debugging in real time is also a unique capability, that allows you to see performance issues like network lags and memory defects across every single element of your website’s DOM, and isolate bottlenecks on the fly!</p>
+
+<h1 id="closing-notes">Closing Notes</h1>
+
+<p>Load testing shouldn’t be a complicated and cumbersome process. We aim to empower anyone involved in the delivery of a webapp, be it the technical engineering team, or your creative marketing team, to load test their webapps and ensure their performance under any condition.</p>
+
+<p>Unlike other tools that require some form of browser plugin or app download to perform the test script recording, SmartLoad can fully run on the cloud.  SmartLoad is currently in beta, and can performance test webapps for now. Any input you can provide us will help us go a long way in building a valuable product to ensure your app’s reliability.</p>
+
+<p><a class="btn btn-primary btn-lg" href="https://load.auth.us-east-1.amazoncognito.com/signup?redirect_uri=https%3A%2F%2Fapp.smartload.io&amp;response_type=code&amp;client_id=5sum82q1em59a1slrquvitk1rr&amp;state=iPjOVSQJJeNNjV5rCRkW6FxBUVK2pfRt&amp;scope=openid%20email%20phone" role="button" aria-pressed="true">Try It Now</a></p>
+
+  </div>
+
+  
+</article>
+
+
+      <footer class="site-footer">
+        <!-- SVG icons from https://iconmonstr.com -->
+
+        <!-- Github icon -->
+        <span class="my-span-icon">
+          <a href="http://github.com/SmartBear" aria-label="SmartBear's GitHub" title="SmartBear's GitHub">
+            <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+        </span>
+
+        <!-- Twitter icon -->
+        <span class="my-span-icon">
+          <a href="https://twitter.com/" aria-label="SmartBear's Twitter" title="SmartBear's Twitter">
+            <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/></svg>
+          </a>
+        </span>
+
+        <!-- RSS icon -->
+        
+        <!-- Contact icon -->
+        
+        
+          <span class="my-span-icon">
+            <a href="/about/" aria-label="Contact" title="Contact SmartBear">
+              <svg class="my-svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg>
+            </a>
+          </span>
+        
+
+      </footer>
+    </section>
+
+    
+  </body>
+</html>
