@@ -1,4 +1,6 @@
 <header class="site-header" role="banner">
+{% assign sign-in = "https://load.auth.us-east-1.amazoncognito.com/login?redirect_uri=https%3A%2F%2Fapp.smartload.io&response_type=code&client_id=5sum82q1em59a1slrquvitk1rr&state=rSW3fujAQSHHgD65uAQbxeIY2OMCwRSl&scope=openid%20email%20phone" | escape %}
+{% assign sign-up = "https://load.auth.us-east-1.amazoncognito.com/signup?redirect_uri=https%3A%2F%2Fapp.smartload.io&response_type=code&client_id=5sum82q1em59a1slrquvitk1rr&state=iPjOVSQJJeNNjV5rCRkW6FxBUVK2pfRt&scope=openid%20email%20phone" | escape %}
 
   <div class="container">
     {% assign default_paths = site.pages | map: "path" %}
@@ -10,7 +12,7 @@
 
     {% if page_paths %}
       <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white !important">
-        <a class = "navbar-brand" href="/">LoadNinja </a>
+        <a class = "navbar-brand" href="/"> {{ site.title | escape }} </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,8 +40,8 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          <a class="btn btn-outline-primary" href="https://load.auth.us-east-1.amazoncognito.com/signup?redirect_uri=https%3A%2F%2Fapp.smartload.io&response_type=code&client_id=5sum82q1em59a1slrquvitk1rr&state=iPjOVSQJJeNNjV5rCRkW6FxBUVK2pfRt&scope=openid%20email%20phone" role="button" aria-pressed="true">Sign Up</a>
-          <a class="btn btn-outline-success" href="https://load.auth.us-east-1.amazoncognito.com/login?redirect_uri=https%3A%2F%2Fapp.smartload.io&response_type=code&client_id=5sum82q1em59a1slrquvitk1rr&state=rSW3fujAQSHHgD65uAQbxeIY2OMCwRSl&scope=openid%20email%20phone" role="button" aria-pressed="true">Sign In</a>
+          <a class="btn btn-outline-primary" href="{{sign-up}}" role="button" aria-pressed="true">Sign Up</a>
+          <a class="btn btn-outline-success" href="{{sign-in}}" role="button" aria-pressed="true">Sign In</a>
         </div>
         </div>
       </nav>
