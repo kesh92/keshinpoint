@@ -1,5 +1,5 @@
 # Build settings
-theme: jekyll-theme-cayman-blog
+remote_theme: jekyll-theme-cayman-blog
 markdown: kramdown
 
 # basic options
