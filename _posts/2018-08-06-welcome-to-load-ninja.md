@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Welcome to LoadNinja
+title: Welcome to SmartLoad
 published: true
 category: product
 tags: [ engineering, documentation ]
-excerpt: This is our first post detailing why we built LoadNinja, and how we hope to improve the lives of performance engineers across the globe
+excerpt: This is our first post detailing why we built SmartLoad, and how we hope to improve the lives of performance engineers across the globe
 ---
 
 # What a wonderful world
