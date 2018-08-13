@@ -21,7 +21,7 @@ This Jekyll project is simply a directory of files, the source code for building
 ## Running Locally
 You can run this website locally. Prerequisites include [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [Jekyll](https://jekyllrb.com/docs/installation/).
 
-- Clone this repository into tour local machine.
+- Clone this repository into your local machine.
 - `cd` into the root of the cloned repo
 - run `bundle install`
 
@@ -40,4 +40,4 @@ Anyone is welcome to add changes to the content. To make changes, please do the 
 - Create a new branch, and add your changes to that branch
 - Create a PR to the main `gh-pages` branch
 
-Any new commits to the `gh-pages` branch will automatically be picked up by GitHub pages, and new content should be reflected in the main marketing website in under 10 minutes. 
+Any new commits to the `gh-pages` branch will automatically be picked up by GitHub pages, and new content should be reflected in the main marketing website in under 10 minutes.
