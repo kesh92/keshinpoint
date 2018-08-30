@@ -51,4 +51,4 @@ Load testing shouldn't be a complicated and cumbersome process. We aim to empowe
 
 Unlike other tools that require some form of browser plugin or app download to perform the test script recording, SmartLoad can fully run on the cloud.  SmartLoad is currently in beta, and can performance test webapps for now. Any input you can provide us will help us go a long way in building a valuable product to ensure your app's reliability.
 
-<a class="btn btn-primary btn-lg" href="https://auth.smartload.io/signup?redirect_uri=https%3A%2F%2Fapp.smartload.io&response_type=code&client_id=7p0okiieh2h1l4efqme9dkgtuh&state=9VEWlU8uVkne9yMThBMsiAWTUqgnLQk4&scope=openid%20email%20phone" role="button" aria-pressed="true">Try It Now</a>
+<a class="btn btn-primary btn-lg" href="https://app.smartload.io/" role="button" aria-pressed="true">Try It Now</a>
